@@ -23,7 +23,7 @@ namespace Moment4_2
             tBoxOut.Clear();
             tboxColor.Clear();
 
-            StringBuilder sb = new StringBuilder($"Alla primatal från 0 till {tal}: \r\n");
+            StringBuilder sb = new StringBuilder($"All the prime numbers from 0 to {tal}: \r\n");
 
             bool primtal = true;
             int max = tal;
@@ -48,12 +48,12 @@ namespace Moment4_2
 
             if (primtal)
             {
-                tboxColor.Text = "Talet är en primtal";
+                tboxColor.Text = "This is a prime number";
                 tboxColor.BackColor = Color.Green;
             }
             else
             {
-                tboxColor.Text += "Talet är inte ett primtal";
+                tboxColor.Text += "This is not a prime number";
                 tboxColor.BackColor = Color.Red;
             }
         }
